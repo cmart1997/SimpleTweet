@@ -52,7 +52,7 @@ public class LoginActivity extends OAuthLoginActionBarActivity<TwitterClient> {
 		 startActivity(i);
 	}
 
-	// OAuth authentication flow failed, handle the error
+	// OAuth authentication flow failed, handle the errors
 	// i.e Display an error dialog or toast
 	@Override
 	public void onLoginFailure(Exception e) {
